@@ -456,6 +456,14 @@ there.
   text-align: left ;
 }
 
+#slogan {
+  text-align: center;
+  color: #AAAAAA;
+  background-color: #000000;
+  font-style: italic;
+  //padding-bottom: 20px;
+  }
+
 #logo_pic {
   //width : 600px;
   width : 100%;
