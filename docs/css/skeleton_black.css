@@ -457,10 +457,11 @@ there.
 }
 
 #slogan {
-  text-align: center;
-  color: #AAAAAA;
-  background-color: #000000;
+  //text-align: center;
+  //color: #AAAAAA;
+  //background-color: #000000;
   font-style: italic;
+  font-size: 120% ;
   //padding-bottom: 20px;
   }
 
@@ -469,6 +470,16 @@ there.
   width : 100%;
   text-align : right;
 }
+
+#emailcontact {
+  //text-align: center;
+  color: #FFFFFF;
+  //background-color: #000000;
+  font-weight: 800;
+  font-size: 120% ;
+  //padding-bottom: 20px;
+  }
+
 
 //body {
 //  color : #F9CB9C ;
