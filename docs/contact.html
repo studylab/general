@@ -31,7 +31,7 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+<div class="container">
 
     <div class="row">
       <div class="three columns" style="margin-top: 5%">
@@ -59,22 +59,37 @@
     </div>
 
     <div class="row">
-      <div class="two column" style="margin-top: 5%">
+      <!-- div class="two columns" style="margin-top: 5%" -->
 
-        <p>All contacts, from general inquiries to a project assessment,
-	   just one simple unique email address:<br>
+  <form class="" action="https://formspree.io/project@pointblanklogic.com" method="POST">
+    <div class="ten columns">
+      <label for="exampleMessage">Contact form:</label>
+      <textarea name="messagebody" class="u-full-width" placeholder="Your message..." id="messagebodyid"></textarea>
+    </div>
+    <div class="ten columns">
+      <label for="exampleEmailInput">Your email address if we wanted to reply:</label>
+      <input required name="replyemail" class="" placeholder="user@mailbox.com" id="replyemailid" type="email"></input>
+    </div>
+    <div class="ten columns">
+      <label> </label>
+      <input class="button-primary" value="Submit" type="submit"></input>
+    </div>
+  </form>
+    </div>
+
+    <div class="row">
+
+        <p></p>
+        <p>Or,</p>
+	
+        <p>the other way to reach us is via email.
+	   From general inquiries to project assessments, just one unique email address:<br>
         <div id="emailcontact">info<!-- -->@<!-- -->pointblanklogic.com</div>
         </p>
-
-	<p>(4/6/18 Important note: Our domain name provider is currently experiencing technical difficulties
-	  and it appears that one original email address we were using
-	  (project<!-- -->@<!-- -->pointblanklogic.com) is not properly functioning
-	  at this moment. So we are recommanding you use instead: info<!-- -->@<!-- -->pointblanklogic.com)	  
-	</p>
 	
-      </div>
+      <!-- /div -->
     </div>
-  </div>
+</div>
 
 
 <div class="copyright">
