@@ -576,3 +576,7 @@ there.
   color : #555555 ;
   font-size: 70% ;
 }
+
+img {
+  border-radius: 5%;
+}
